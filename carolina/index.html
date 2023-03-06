@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OXYGEN SHOP</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="burguer.css">
+    <link rel="stylesheet" href="vectores.css">
+    <link rel="stylesheet" href="pricing.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="slider.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav ">
+            <div class="container">
+                <div class="logo">
+                    <img class="img-logo" src="img/logo.svg" />
+                </div>
+                <div class="main_list" id="mainListDiv">
+                    <ul>
+                        <li><a href="#">WHY US</li>
+                        <li><a href="#section_cards">BENEFITS</a></li>
+                        <li><a href="#pricings">PRICES</a></li>
+                        <li><a href="#contacts">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="media_button">
+                    <button class="main_media_button" id="mediaButton">
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        
+        </nav>
+
+
+    </header>
+
+    <!-- Popup/modal de "Subscribe to our newsletter" -->
+<div id="newsletter-popup">
+    <h2>Subscribe to our newsletter</h2>
+    <form id="newsletter-form">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+           <!-- Botón para cerrar el popup/modal -->
+  <button id="close-popup">X</button>
+  </div>
+
+    <!-- Background -->
+
+    <div class="backgoundSection">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 col-lg-12 text-center m-5">
+                <h1>Sell More!</h1>
+                <h4>Open shop on our platform and increase your sales</h4>
+                <br>
+                <button class="btn btn-primary" type="button">Open your shop</button>
+            </div>
+        </div>
+        <div class="row">
+            <img src="img/Background.png" class="img-fluid" alt="ofice"></img>
+        </div>
+    </div>
+
+    <!--vector-->
+    <section>
+        <div class="row">
+            <div class="col-md-4 col-sm-12 col-lg-12 text-center m-4">
+                <h2>The most popular sales platform in country</h2>
+            </div>
+            <br>
+            <div class="container text-center popular_vector">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="img/card1section1.svg" class="circle" alt="Persons"></img>
+                        <div class="vector1"></div>
+                        <div class="numbers"></div>
+                        <div class="phrase"></div>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="img/card2section1.svg" class="circle" alt="eyed"></img>
+                        <div class="vector2">
+
+                        </div>
+                        <div class="numbers"></div>
+                        <div class="phrase"></div>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="img/card3section1.svg" class="circle" alt="notebook"></img>
+                        <div class="vector3">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- cards -->
+
+    <section id="section_cards">
+        <div class="container top">
+            <div class="card mb-3 ">
+                <div class="row g-0 card-1 justify-content-around">
+
+                    <div class="col-md-4">
+                        <div class="card-body">
+                            <h5>Be always first</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <hr class="card-line1" style="color: #FB3B64;">
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/Rectangle 5.png" class="rectangle" style="width: 40%; margin-left: 20%;"
+                            alt="rectangle"></img>
+                        <div class="macbook">
+                            <img src="img/macbook.png" class="img-fluid rounded-start " alt="macbook"
+                                style="margin-top: -30%;"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="row g-0 card-1 justify-content-around">
+                    <div class="col-md-4">
+                        <img src="img/circle.svg" class="ellipse4" style="margin-top: 10%;" alt="circle"></img>
+                        <div class="iphone">
+                            <img src="img/iphone.png" alt="iphone" style="margin-top: -35%;"></img>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-body">
+                            <h5>Your shop is where you are!</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <hr class="card-line2" style="color: #07ACE6;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="row g-0 card-1 justify-content-around">
+
+                    <div class="col-md-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Increase recognition your brand!</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <hr class="card-line3" style="color:#55DFB4;">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/Rectangle 6.png" class="frame" alt="rectangle" style="width: 60%;"></img>
+                        <img src="img/bg-trumpet.png" alt="bg-trumpet"
+                            style="margin-top: -45%; margin-left: -5%;"></img>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <select class="option-button">
+        <option value="USD"> USD</option>
+        <option value="EUR">EUR</option>
+        <option value="YEN">PESOS</option>
+    </select>
+
+
+    <!--Pricing-->
+
+    <section id="pricings" class="row-gap-5 text-center justify-content-around d-flex flex-wrap">
+        <div class="card-pricing1">
+
+            <div class="card card1 h-auto">
+                <div class="card-body d-flex flex-column justify-content-center row-gap-2">
+                    <h3 class="card-subtitle">Basic</h3>
+                    <h2 class="card-title">$0</h2>
+
+                    <div class="card-features d-flex align-items-center text-center justify-content-center">
+                        <img class="checked" src="img/check.svg" alt="check"></img>
+                        <p class="card-text ">100MB HDD</p>
+                    </div>
+
+                    <div class="card-features d-flex align-items-center text-center justify-content-center">
+                        <img class="checked" src="img/check.svg" alt="check"></img>
+                        <p class="card-text">1 Subdomain</p>
+                    </div>
+
+                    <div class="card-features d-flex align-items-center justify-content-center">
+                        <img class="checked" src="img/check.svg" alt="check"></img>
+                        <p class="card-text ">2 E-mails</p>
+                    </div>
+
+                    <div class="card-features d-flex align-items-center justify-content-center ">
+                        <img class="not-checked" src="img/cross.svg" alt="not-checked"></img>
+                        <p class="card-text">Two years license</p>
+                    </div>
+
+                    <div class="card-features d-flex align-items-center text-end justify-content-center ">
+                        <img class="not-checked" src="img/cross.svg" alt="not-checked"></img>
+                        <p class="card-text ">Full support</p>
+                    </div>
+
+                    <div class="boton1">
+                        <button class="botonpricing1" type="submit">Begin</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card-pricing2">
+
+            <div class="card card2 h-auto">
+                <div class="card-body d-flex flex-column justify-content-center row-gap-2">
+                    <h3 class="card-subtitle">Basic</h3>
+                    <h2 class="card-title">$20</h2>
+
+                    <div class="card-features d-flex align-items-center text-center justify-content-center">
+                        <img class="checked" src="img/check.svg" alt="check"></img>
+                        <p class="card-text ">100MB HDD</p>
+                    </div>
+
+                    <div class="card-features d-flex align-items-center text-center justify-content-center">
+                        <img class="checked" src="img/check.svg" alt="check"></img>
+                        <p class="card-text">1 Subdomain</p>
+                    </div>
+
+                    <div class="card-features d-flex align-items-center justify-content-center">
+                        <img class="checked" src="img/check.svg" alt="check"></img>
+                        <p class="card-text ">2 E-mails</p>
+                    </div>
+
+                    <div class="card-features d-flex align-items-center justify-content-center ">
+                        <img class="not-checked" src="img/check.svg" alt="not-checked"></img>
+                        <p class="card-text">Two years license</p>
+                    </div>
+
+                    <div class="card-features d-flex align-items-center text-end justify-content-center ">
+                        <img class="not-checked" src="img/cross.svg" alt="not-checked"></img>
+                        <p class="card-text ">Full support</p>
+                    </div>
+
+                    <div class="boton2">
+                        <button class="botonpricing2" type="submit">Begin</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="card-pricing3">
+
+            <div class="card card3 h-auto" style="border-color: #55DFB4; border-radius: 18px;">
+                <div class="card-body d-flex flex-column justify-content-center row-gap-2">
+                    <h3 class="card-subtitle">Basic</h3>
+                    <h2 class="card-title">$60</h2>
+
+                    <div class="card-features d-flex align-items-center text-center justify-content-center">
+                        <img class="checked" src="img/check.svg" alt="check"></img>
+                        <p class="card-text ">100MB HDD</p>
+                    </div>
+
+                    <div class="card-features d-flex align-items-center text-center justify-content-center">
+                        <img class="checked" src="img/check.svg" alt="check"></img>
+                        <p class="card-text">1 Subdomain</p>
+                    </div>
+
+                    <div class="card-features d-flex align-items-center justify-content-center">
+                        <img class="checked" src="img/check.svg" alt="check"></img>
+                        <p class="card-text ">2 E-mails</p>
+                    </div>
+
+                    <div class="card-features d-flex align-items-center justify-content-center ">
+                        <img class="not-checked" src="img/check.svg" alt="not-checked"></img>
+                        <p class="card-text">Two years license</p>
+                    </div>
+
+                    <div class="card-features d-flex align-items-center text-end justify-content-center ">
+                        <img class="not-checked" src="img/check.svg" alt="not-checked"></img>
+                        <p class="card-text ">Full support</p>
+                    </div>
+
+                    <div class="boton3">
+                        <button class="botonpricing3" type="submit">Begin</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!--Slider-->
+  <section id="Slider">
+        <div class="slider-frame">
+        <ul>
+            <li><img src="img/2.jpg" alt=""></li>
+            <li><img src="img/3.jpg" alt=""></li>
+            <li><img src="img/7.jpg" alt=""></li>
+            <li><img src="img/5.jpg" alt=""></li>
+
+        
+        </ul>
+          </div>
+        
+    </section>
+
+    <!--contact-->
+
+    <section id="contacts">
+        <div class="contact">
+            <div class="contact-container">
+                <h2 class="contact-1">Any questions?</h2>
+                <p class="contact-2">Leave your email address or call us!</p>
+                <div class="flex-container">
+                    <img src="img/Vector.png" alt="email" style="width: min-content; height: min-content;"></img>
+                    <p class="p_email">info@bestshop.xyz</p>
+                    <br>
+                    <img src="img/Vector (1).png" alt="telephone"
+                        style="width: min-content; height: min-content;"></img>
+
+                    <p class="i_email">123 456 789</p>
+                </div>
+            </div>
+            <div class="form-contact">
+                <form>
+                    <div>
+                        <label for="input-name">Name</label>
+                        <input type="text" id="input-name"></input>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="input-email">E-mail</label>
+                        <input type="text" id="input-email"></input>
+                    </div>
+                </form>
+                <br>
+                <div class="form-contact-polity">
+                    <input class="check" type="checkbox"></input>
+                    <label for="check" class="label-data-proteccion"></label>
+                    <p class="data-protection">
+                        I hereby give consent for my personal
+                        data included in my application to be
+                        processed for the purposes of the recruitment
+                        process under the European Parliament’s and Council
+                        of the European Union Regulation on the Protection of
+                        Natural Persons as of 27 April 2016, with regard to the
+                        processing of personal data and on the free movement of
+                        such data, and repealing Directive 95/46/EC (Data Protection Directive)
+                    </p>
+                    </label>
+                </div>
+                <div class="btn-submit-container">
+                    <button class="btn-submit" type="submit">
+                        <p class="btn-send">Send</p>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+    <br />
+    <br />
+
+    <!--footer-->
+
+    <footer>
+        <div class="logofooter">
+            <img src="img/logo.svg" alt="logo"></img>
+            <p class="reserved">©2022 OXYGEN,All Rights Reserved</p>
+            <a href=""><img src="img/Group.png" alt="twitter"></img></a>
+            <a href=""><img src="img/facebook.svg" alt="facebook"></img></a>
+        </div>
+
+    </footer>
+
+    
+
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

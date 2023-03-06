@@ -1,0 +1,42 @@
+
+/* SLIDER */
+
+  .slider-frame {
+    width: 50%;
+    height: auto;
+    padding: auto;
+    animation: slider 16s infinite alternate ease-in-out; 
+    border: 1px;
+  }
+
+  .slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+  }
+
+.slider-frame li {
+   list-style: none;
+   width: 100%; 
+}
+
+.slider-frame img{
+    width: 100%;
+    
+   
+    
+}
+
+@keyframes slider {
+  0%{margin-left: 0%;}
+  20%{margin-left: 0%;}
+
+  20%{margin-left: -100%;}
+  40%{margin-left: -100%;}
+
+  45%{margin-left: -100%;}
+  55%{margin-left: -100%;}
+}
+
+/*Las imagenes se van moviendo automaticamente, agregando los tiempos de movimiento yendo del 0% al 20% dividiendolo en 4 imagenes*/
+

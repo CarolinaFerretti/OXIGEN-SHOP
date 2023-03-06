@@ -1,0 +1,67 @@
+/*pricing*/
+
+.option-button{
+
+    margin-left: 50%;
+    border: solid 5px gray;
+    margin-top: 5%;
+   }
+ 
+ #pricings{
+   padding: 10%;
+ }
+ 
+ .card1:hover{
+   box-shadow: 5px 10px 27px #FB3B64;
+   transform: scale(1.1);
+   
+ }
+ .card1{
+   border-radius: 20px;
+   border: 2px solid #FB3B64;
+  
+ }
+ .card2:hover{
+   box-shadow: 5px 10px 27px #07ACE6;
+   transform: scale(1.1);
+ }
+ .card2{
+   border-radius: 20px;
+   border: 2px solid #07ACE6;
+ }
+ .card3:hover{
+   box-shadow: 5px 10px 27px #55DFB4;
+   transform: scale(1.1);
+ }
+ .card3{
+   border-radius: 20px;
+   border: 2px solid #55DFB4;
+ }
+ 
+ .botonpricing1 {
+   border: 1px solid#FB3B64;
+   border-radius: 15px;
+   background-color: #FB3B64;
+   width: 100%;
+   font-family: "Open Sans";
+   position: relative;
+   display: flex;
+   justify-content: center;
+ }
+ 
+ .botonpricing2 {
+   border: 1px solid#07ACE6;
+   border-radius: 15px;
+   background-color: #07ACE6;
+   width: 100%;
+   font-family: "Open Sans";
+ }
+  
+ 
+ .botonpricing3 {
+   border: 1px solid#55DFB4;
+   border-radius: 15px;
+   background-color: #55DFB4;
+   width: 100%;
+   font-family: "Open Sans";
+ }

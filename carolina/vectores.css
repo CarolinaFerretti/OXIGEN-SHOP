@@ -1,0 +1,49 @@
+/*vectores*/
+
+.popular_vector {
+    margin-top: 50px;
+  }
+  
+  .numbers {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 5.96px;
+    color: #000000;
+  }
+  
+  .phrase {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #A5A5A5;
+    margin-top: 10px;
+  }
+  /*line cards*/
+  
+  .card-line1 {
+    height: 3px;
+    width: 100%;
+    background-color: #FB3B64;
+    margin: 20px 0;
+  }
+  
+  .card-line2 {
+    height: 3px;
+    width: 100%;
+    background-color: #07ACE6;
+    margin: 20px 0;
+  }
+  
+  .card-line3 {
+    height: 3px;
+    width: 100%;
+    background-color: #55DFB4;
+    margin: 20px 0;
+  }
