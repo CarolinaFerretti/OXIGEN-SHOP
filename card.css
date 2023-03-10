@@ -1,0 +1,136 @@
+#section_cards {
+    background-color: #F7F7F7;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-direction: row;
+}
+
+.card-title {
+    font-family: "raleway";
+    width: 20%;
+
+
+}
+
+.card-text {
+    font-family: "Open sans";
+    font-size: small;
+}
+
+.container-cards {
+    width: 80%;
+    padding: 3%;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: 0 3px 6px 0px gray;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rectangle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.macbook {
+    position: relative;
+    transform: translate(-15%, 20%);
+}
+
+.container-card-iphone {
+    width: 80%;
+    padding: 3%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: 0 3px 6px 0px gray;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ellipse4 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.iphone {
+    position: relative;
+    transform: translate(5%, 30%);
+    height: 150px;
+}
+
+.container-card-trumpet {
+    width: 80%;
+    padding: 3%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: 0 3px 6px 0px gray;
+    display: flex;
+    justify-content: space-around;
+}
+
+.frame {
+    position: absolute;
+    width: 260px;
+    height: 200px;
+}
+
+.bg-trumpet {
+    position: relative;
+    transform: translate(5%, 35%);
+    height: 150px;
+}
+
+@media screen and (max-width: 1000px) {
+    #section_cards {
+        display: flex;
+        justify-content: space-around;
+        text-align: justify;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-cards {
+        flex-direction: column-reverse;
+       text-align: center;
+        align-items: center;
+        width: 85%;
+        padding: auto;
+    }
+
+    .container-card-iphone {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 85%;
+        padding: 10%;
+
+    }
+
+    .container-card-trumpet {
+        flex-direction: column;
+        text-align:start;
+        align-items: center;
+        width: 85%;
+        padding: 20%;
+    }
+
+   .rectangle {
+        position: absolute;
+        width: 65px;
+        height: 75px;
+       
+    }
+
+    .macbook {
+        width: 80%;
+        height: 50%;
+        position: relative;
+        transform: translate(5%, 20%);
+    }
+
+}

@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+
+$font-family-a: 'Open Sans';
+$font-family-b: 'Raleway';
+$color-gray: #A5A5A5;
+$color-black: #000000;
+$color-white: white;
+
+
+body {
+    background-color: $color-white;
+
+}
+
+// vector
+
+.popular_vector {
+    margin-top: 50px;
+}
+
+.numbers {
+    font-family: $font-family-a;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 5.96px;
+    color: $color-black;
+
+}
+
+.phrase {
+    font-family: '$font-family-b';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: $color-gray;
+    margin-top: 10px;
+
+}
+
+//cards
+
+.card-line1 {
+    height: 3px;
+    width: 100%;
+    background-color: #FB3B64;
+    margin: 20px 0;
+}
+
+.card-line2 {
+    height: 3px;
+    width: 100%;
+    background-color: #07ACE6;
+    margin: 20px 0;
+}
+
+.card-line3 {
+    height: 3px;
+    width: 100%;
+    background-color: #55DFB4;
+    margin: 20px 0;
+}
+
+//pricing
+
+.botonpricing1 {
+    width: 150px;
+    height: 30px;
+    background: #FB3B64;
+    border-radius: 35px;
+    margin-left: 3%;
+}
+
+.botonpricing2 {
+    width: 150px;
+    height: 30px;
+    background: #07ACE6;
+    border-radius: 35px;
+    margin-left: 3%;
+}
+
+.botonpricing3 {
+    width: 150px;
+    height: 30px;
+    background: #55DFB4;
+    border-radius: 35px;
+    margin-left: 3%;
+}
+
+//Contact
+.contact {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+    max-width: 56rem;
+
+    .contact-container {
+        min-width: 50%;
+    }
+
+    .contact-1 {
+        font-family: $font-family-b;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 49px;
+        color: $color-black;
+
+    }
+
+    .contact-2 {
+        font-family: $font-family-a;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: $color-black
+    }
+
+    .p_email {
+        font-family: $font-family-a;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: #A5A5A5;
+    }
+
+    .contact-name {
+        font-family: $font-family-a;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+
+
+        letter-spacing: 3.28px;
+
+        color: #08A6E4;
+    }
+
+    .contact-email {
+        font-family: $font-family-a;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+
+
+        letter-spacing: 3.28px;
+        color: #08A6E4;
+    }
+
+    .data-protection {
+        margin-top: -7%;
+        margin-bottom: 7%;
+        font-family: $font-family-a;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+
+        color: #707070;
+
+    }
+
+    .btn-submit {
+        width: 150px;
+        height: 30px;
+        background: #08A6E4;
+        box-shadow: 5px 10px 14px rgba(7, 172, 230, 0.29);
+        border-radius: 35px;
+        margin-left: 60%;
+    }
+
+    .btn-send {
+        font-family: $font-family-a;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        color: $color-white;
+    }
+
+    .check {
+        border: 1px solid #95989A;
+        border-radius: 4px;
+        width: 24px;
+        height: 24px;
+        margin-left: -6%;
+        margin-top: 5%;
+    }
+
+    #input-name {
+
+        position: relative;
+        width: 90%;
+        left: 0px;
+
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #95989A;
+    }
+
+    #input-email {
+
+        position: relative;
+        width: 90%;
+        left: 0px;
+
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #95989A;
+    }
+
+}
+
+
+
+//footer
+.reserved {
+    font-family: $font-family-a;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: #A5A5A5;
+
+}
+
+.logofooter {
+    display: flex;
+    background: #F7F7F7;
+    box-shadow: 0px -5px 40px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    justify-content: space-between;
+
+}

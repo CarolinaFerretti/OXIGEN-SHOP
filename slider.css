@@ -1,0 +1,27 @@
+
+/* SLIDER */
+
+  .slider-frame {
+    width: 50%;
+    height: auto;
+    padding: auto;
+    animation: slider 16s infinite alternate ease-in-out; 
+    border: 1px;
+  }
+
+  .slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+  }
+
+.slider-frame li {
+   list-style: none;
+   width: 100%; 
+}
+
+.slider-frame img{
+  width: 100%; 
+}
+
+

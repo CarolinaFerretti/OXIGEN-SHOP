@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap");
+
+body {
+  background-color: white;
+}
+
+
+/*background-section*/
+
+.section-background{
+display: flex;
+flex-direction: column;
+ justify-content: space-between;
+ padding: 10%;
+ margin-top: auto;
+
+}
+.sellMore{
+  text-align: center;
+  font-family: "raleway";
+  margin-top: auto;
+  font-weight: 200%;
+  line-height: 57px;
+  font-size: 40px;
+  padding: 2%;
+ 
+  
+}
+.Open{
+  text-align: center;
+  margin-top: auto;
+  font-family: "Open sans";
+  font-size: small;
+  line-height: 22px;
+  padding: 2%;
+}
+
+.btn{
+ background-color:#08A6E4;
+ color: white;
+ display: flex;
+ justify-content: center;
+ border-radius: 25px;
+ width: 35%;
+ margin-left: 33%;
+ padding: 9px;
+ 
+}
+.img-inicio{
+  width: 100%;
+}
+/*POPUP/MODAL*/
+
+  /* Estilos para el popup/modal */
+  #newsletter-popup {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Estilos para el botón de cerrar */
+  #close-popup {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgb(143, 230, 236);
+    border: none;
+   cursor: pointer;
+  }
+  
